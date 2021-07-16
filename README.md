@@ -4,10 +4,14 @@ When we figure out how to package ES6 we will...
 
 ### Github
 
-Requires fiddling around with SSL on Mac, etc to allow for both balmoral and bakeworks to access their different accounts.
+Given there's a single universal github setting on Mac OSX,
+we have to edit `./git/config` to specify different github accounts.
 
-Some links which explain how to do this: 
+#### References
+
 * [Handling Multiple Github Accounts on MacOS](https://gist.github.com/Jonalogy/54091c98946cfe4f8cdab2bea79430f9)
+
+#### Example
 
 `.git/config`
 
