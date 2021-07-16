@@ -4,7 +4,7 @@ When we figure out how to package ES6 we will...
 
 ### Github
 
-Given there's a single universal github setting per user on Mac OSX,
+Because there's a single universal github setting per user on Mac OSX,
 we have to edit `./git/config` to specify another github account.
 
 Edit `./git/config` after `git init` and before further git commands.
