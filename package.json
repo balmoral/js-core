@@ -1,0 +1,11 @@
+{
+  "name": "balmoral-core",
+  "description": "Core utility library for javascript and node.js.",
+  "version": "1.0.0",
+  "license": "",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "repository": "git@github.com:balmoral/js-core.git",
+  "author": "balmoral <balmoral2088@xmail.com>",
+  "private": true
+}
