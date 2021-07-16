@@ -13,15 +13,15 @@ Some links which explain how to do this:
 
 ```
 [user]
-        name = b__m___l
-        email = c__@m___e__.com
+        name = xx
+        email = xx
 [core]
         repositoryformatversion = 0
         filemode = true
         bare = false
         logallrefupdates = true
         ignorecase = true
-        sshCommand = ssh -i ~/.ssh/bakeworks
+        sshCommand = ssh -i ~/.ssh/balmoral
 [remote "origin"]
         url = git@github.com:balmoral/js-core.git
         fetch = +refs/heads/*:refs/remotes/origin/*
