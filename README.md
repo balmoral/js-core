@@ -4,10 +4,10 @@ When we figure out how to package ES6 we will...
 
 ### Github
 
-Given there's a single universal github setting on Mac OSX,
-we have to edit `./git/config` to specify different github accounts.
+Given there's a single universal github setting per user on Mac OSX,
+we have to edit `./git/config` to specify another github account.
 
-Do this immediately after `git init` and before subsequent git commands.
+Edit `./git/config` after `git init` and before further git commands.
 
 #### References
 
@@ -19,8 +19,8 @@ Do this immediately after `git init` and before subsequent git commands.
 
 ```
 [user]
-        name = xx
-        email = xx
+        name = [user-name]
+        email = [email-address]
 [core]
         repositoryformatversion = 0
         filemode = true
@@ -29,7 +29,7 @@ Do this immediately after `git init` and before subsequent git commands.
         ignorecase = true
         sshCommand = ssh -i ~/.ssh/balmoral
 [remote "origin"]
-        url = git@github.com:balmoral/js-core.git
+        url = git@github.com:[account-name]/[repository-name].git
         fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "main"]
         remote = origin
