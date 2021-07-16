@@ -7,7 +7,7 @@ When we figure out how to package ES6 we will...
 Given there's a single universal github setting on Mac OSX,
 we have to edit `./git/config` to specify different github accounts.
 
-Do this immediately after `git init` and before push origin.
+Do this immediately after `git init` and before subsequent git commands.
 
 #### References
 
