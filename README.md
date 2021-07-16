@@ -31,7 +31,7 @@ Edit `./git/config` after `git init` and before further git commands.
 [remote "origin"]
         url = git@github.com:[account-name]/[repository-name].git
         fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "main"]
+[branch "master"]
         remote = origin
         merge = refs/heads/master
 ```
