@@ -23,9 +23,10 @@ Some links which explain how to do this:
         ignorecase = true
         sshCommand = ssh -i ~/.ssh/bakeworks
 [remote "origin"]
-        url = git@github.com:bakeworks/core.git
+        url = git@github.com:balmoral/js-core.git
         fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "master"]
+[branch "main"]
         remote = origin
         merge = refs/heads/master
 ```
+
